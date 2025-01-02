@@ -2,15 +2,16 @@ import React from "react";
 import gif1 from "../assets/greentea.gif";
 import gif2 from "../assets/cats.gif";
 import gif3 from "../assets/computer.gif";
+import { Link } from "react-router-dom";
 import "../Home.css";
 
 function Home() {
   return (
     <div className="home-page">
       <div className="nav-bar">
-        <a href="https://example.com" className="no-underline">ANNIE HUANG</a>
-        <a href="https://example.com" className="no-underline">PROJECTS</a>
-        <a href="https://example.com" className="no-underline">ABOUT ME</a>       
+        <Link to="/" className="no-underline">ANNIE HUANG</Link>
+        <Link to="/projects" className="no-underline">PROJECTS</Link>
+        <Link to="/about" className="no-underline">ABOUT ME</Link>       
       </div>
       <div className="home-container">
         <h2>Hi! My name is Annie</h2>
@@ -36,8 +37,9 @@ function Home() {
             <div className="footer-section">
                 <h4>Find me on</h4>
                 <p>
-                    <a href="https://linkedin.com">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://github.com">Github</a>
+                    <a href="https://www.linkedin.com/in/annie-huangg/" target="_blank" rel="noopener noreferrer">LinkedIn</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/annieehng" target="_blank" rel="noopener noreferrer">Github</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://devpost.com/annieehng?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer">Devpost</a>
                 </p>
             </div>
         </footer>

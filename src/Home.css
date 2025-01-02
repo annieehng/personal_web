@@ -92,12 +92,9 @@ html, body {
   font-size: 1rem;
   text-align: left;
   margin-top:200px;
-  margin-left:450px;
+  max-width: 1400px;
 }
 
-.footer-section {
-  flex: 1; /* Allow sections to grow equally */
-}
 
 .footer-section h4 {
   margin-bottom: 0.5rem; /* Space between heading and content */
