@@ -17,7 +17,6 @@ html, body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  align-items: center;
 }
 
 /* Style for the navigation bar */
@@ -35,11 +34,12 @@ html, body {
 
 .about-me {
   text-align: left;
-  margin-top: 100px;
+  margin-top: 50px;
   vertical-align: middle;
   display:flex;
   width: 1000px;
   align-items: center;
+  margin-left:150px;
 }
 
 .about-me .header-box {
@@ -61,7 +61,6 @@ html, body {
   font-size: 1rem;
   text-align: left;
   margin-top: 200px; /* Space above the footer */
-  max-width: 1400px; /* Match the width of the content */
   box-sizing: border-box;
 }
 

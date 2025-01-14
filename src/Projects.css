@@ -30,6 +30,7 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 10;
+  margin-bottom: 50px;
 }
 
 /* Main container for content */
@@ -40,7 +41,6 @@ html, body {
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  margin-top: 200px;
 }
 
 /* Project Card Styling */

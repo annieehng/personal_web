@@ -17,19 +17,18 @@ function About() {
 
         <div className="about-me">
           <div className="header-box">
-            <h1>nice to meet you!</h1>
-            <p>i'm currently studying at McGill university, doing a Bachelor of Science as a Computer Science
+            <h1>Nice to meet you!</h1>
+            <p>I'm currently studying at McGill university, doing a Bachelor of Science as a Computer Science
               Major and Psychology Minor.
             </p>
           </div>
           <img src={profileImage} alt="DISHcovery project" className="about-image" />
 
         </div>
+      </div>
 
-
-
-        {/* Footer Section */}
-        <footer className="footer">
+      {/* Footer Section */}
+      <footer className="footer">
             <div className="footer-section">
                 <h4>Reach me at</h4>
                 <p><a href="mailto:annieehng@gmail.com">annieehng@gmail.com</a></p>
@@ -43,7 +42,6 @@ function About() {
                 </p>
             </div>
         </footer>
-      </div>
     </div>
   );
 }
