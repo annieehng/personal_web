@@ -49,14 +49,14 @@ html, body {
   padding: 1.5rem;
   margin: 2rem auto;
   max-width: 1200px; /* Same width for all cards */
-  height: 300px; /* Fixed height for all cards */
+  height: 350px; /* Fixed height for all cards */
   opacity: 0; /* Initial opacity for fade-in effect */
   transform: translateY(20px); /* Initial position for fade-in */
   transition: opacity 1s ease-out, transform 1s ease-out;
   display: flex; /* Ensures alignment of content */
   align-items: center;
   justify-content: center;
-  margin-top:20px;
+  margin-top:40px;
 }
 
 /* Project Content Flexbox */

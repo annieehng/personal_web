@@ -19,11 +19,44 @@ function About() {
           <div className="header-box">
             <h1>Nice to meet you!</h1>
             <p>I'm currently studying at McGill university, doing a Bachelor of Science as a Computer Science
-              Major and Psychology Minor.
+              Major and Psychology Minor 
+            </p>
+            <p>
+              I was born and raised in Vancouver, British Columbia and moved to Montreal for university. In my free time,
+              I enjoy spending time with my friends and family through game nights and exploring the city by
+              visiting new cafes ☕ 
+            </p>
+            <p>
+              I'm looking to continue my career in Vancouver, Toronto, or Montreal!
             </p>
           </div>
           <img src={profileImage} alt="DISHcovery project" className="about-image" />
+        </div>
+        <div className="experience-header">
+          <h1>Experience</h1>
+        </div>
 
+        <div className="internship-section">
+          <h3>My internship experience: Bell, Summer 2024</h3>
+          <p>
+            I got to work for Bell under their Finance internship and was placed into their Data Strategy and Architecture team.
+          </p>
+
+        </div>
+
+        <div className="experience-section">
+          <div>
+            <h3>Languages I know:</h3>
+            <ul>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Classes I've Taken:</h3>
+            <ul>
+              <li>COMP 202</li>
+            </ul>
+          </div>
         </div>
       </div>
 

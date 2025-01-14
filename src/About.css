@@ -51,6 +51,37 @@ html, body {
   border-radius: 10px;
 }
 
+.experience-header h1 {
+  text-align: left;
+  margin-top: 90px;
+  vertical-align: middle;
+  display:flex;
+  width: 1000px;
+  align-items: center;
+  margin-left:150px;
+}
+
+.internship-section {
+  text-align: left;
+  vertical-align: middle;
+  display:flex;
+  width: 1000px;
+  align-items: left;
+  margin-left:150px;   
+  flex-direction: column; 
+}
+
+.experience-section {
+  text-align: left;
+  margin-top: 70px;
+  vertical-align: middle;
+  display:flex;
+  width: 1000px;
+  align-items: center;
+  margin-left:150px;
+  gap:26rem;
+}
+
 /* Footer Section */
 .footer {
   display: flex;
