@@ -78,10 +78,10 @@ html, body {
 }
 
 .project-image {
-  width: 500px;
-  height: 300px;
-  border-radius: 20px;
-  object-fit: cover;
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: fill;
   flex-shrink: 0;
 }
 
