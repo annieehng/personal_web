@@ -47,6 +47,14 @@ html, body {
   justify-content: center;
   text-align: left;
   margin-top: 100px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.home-container.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Header text in the home container */
@@ -95,7 +103,6 @@ html, body {
   max-width: 1400px;
 }
 
-
 .footer-section h4 {
   margin-bottom: 0.5rem; /* Space between heading and content */
   font-size: 1.2rem;
@@ -116,20 +123,62 @@ html, body {
 }
 
 
-
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
+
   .nav-bar {
     flex-direction: column;
     text-align: center;
+    gap: 0.5rem;
   }
 
+  /* Center items in the home page */
+  .home-page {
+    align-items: center;
+  }
+
+  /* Remove spacing under the navbar and above the home container header */
+  .home-container {
+    align-items: center; /* Center align content */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text */
+    margin-top: 0; /* Remove top margin */
+    padding: 1rem; /* Add a little padding for better appearance */
+  }
+
+  /* Center gif-container items and reduce spacing */
   .gif-container {
-    gap: 1rem;
+    justify-content: center; /* Center GIFs */
+    gap: 1rem; /* Reduce gap between GIFs */
   }
 
   .gif-box {
-    width: 150px;
-    height: 150px;
+    width: 350px; /* Smaller width for GIFs */
+    height: 150px; /* Smaller height for GIFs */
+  }
+
+  /* Footer adjustments */
+  .footer {
+    flex-direction: row; /* Stack footer sections */
+    gap: 2rem; /* Reduce gap between footer sections */
+    font-size: 10px; /* Make the footer text smaller */
+    padding: 1rem 0; /* Reduce padding */
+    text-align: center; /* Center align footer text */
+    align-items: center;
+  }
+
+  .footer-section h4 {
+    font-size: 14px; /* Adjust heading size */
+    margin-bottom: 0.25rem; /* Reduce spacing below heading */
+  }
+
+  .footer-section p {
+    margin: 0; /* Remove margin for consistent spacing */
+    font-size: 12px;
+  }
+
+  .footer-section a {
+    font-size: 12px;
+    margin-right: 0.25rem; /* Reduce space between links */
   }
 }
