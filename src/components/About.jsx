@@ -61,11 +61,8 @@ function About() {
         </div>
       </div>
 
-      <div className="experience-container fade-in">
-        <h1>Experience</h1>
-      </div>
-
       <div className="internship-section fade-in">
+        <h1>Experience</h1>
         <h3>My internship experience: Bell, Summer 2024</h3>
         <p>
           During my internship at Bell, I had the opportunity to work in the Finance department as part of the Data Strategy and Architecture team. 
